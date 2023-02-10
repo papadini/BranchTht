@@ -10,11 +10,11 @@
 
 ## Thought Process Application
 #### 1) After reading requirements of application I started to figure out how to split this up.
-#### 2) I would need to get the data from the given apis and use as a temp db. Once I had the needed data I would need to set up a service to orchestrate retrieval of data, formatting of data to requirements, handle exceptions and return correct data wanted.  
+#### 2) I would need to get data from the given apis. Once I had the needed data, I would need to set up a service to orchestrate retrieval of data, formatting of data to requirements, handle exceptions and return correct data wanted.  
 #### 3) I would need multiple layers to handle specific parts of the application: controller, service layer and dao. 
-#### 4) I created these classes first by stubbing out and testing i could do a simple end-to-end test. After successfully setting up my classes I started to setting up logic to get data, transform data, check if we got data and return proper data. 
+#### 4) I created these classes first by stubbing out and testing that I could do a simple end-to-end test. After successfully setting up my classes I started to setting up logic to get data, transform data, check if we got data and return proper data. 
 #### 5) Also set up testing to individually test methods in service, mocking response of doa. 
-#### 6) tested end-to-end, code clean up/walk through 
+#### 6) Tested end-to-end, code clean up/walk through 
 
 ## Bugs
-#### currently one bug is present within the date format. Either my pattern is off or using SimpleDateFormat. Current bug effects hour section of time. returning 11 when should be 18 but did not want to spend too much time on this. I plan to try a bit longer after submission.  
+#### Currently, one bug is present within the date format. Either my pattern is off or using SimpleDateFormat. Current bug effects hour section of time. returning 11 when should be 18 but did not want to spend too much time on this. I plan to try a bit longer after submission.  
