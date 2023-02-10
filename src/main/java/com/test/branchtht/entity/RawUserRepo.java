@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class RawUserRepo {
     public String name;
-    public String html_url;
+    public String url;
 
 }
 

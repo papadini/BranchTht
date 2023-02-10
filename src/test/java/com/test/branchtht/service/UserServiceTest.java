@@ -47,11 +47,11 @@ public class UserServiceTest {
     public void getRawUserRepos() {
         RawUserRepo testUserRepo1 = RawUserRepo.builder()
                 .name("repo1")
-                .html_url("html url ")
+                .url("html url ")
                 .build();
         RawUserRepo testUserRepo2 = RawUserRepo.builder()
                 .name("repo2")
-                .html_url("html url ")
+                .url("html url ")
                 .build();
 
         when(userDao.getUserReposByUsername(TEST_USERNAME)).thenReturn(Arrays.asList(testUserRepo1, testUserRepo2));
@@ -65,11 +65,11 @@ public class UserServiceTest {
     public void getFormattedUser() {
         RawUserRepo testUserRepo1 = RawUserRepo.builder()
                 .name("repo1")
-                .html_url("html url ")
+                .url("html url ")
                 .build();
         RawUserRepo testUserRepo2 = RawUserRepo.builder()
                 .name("repo2")
-                .html_url("html url ")
+                .url("html url ")
                 .build();
 
         RawUser testUser = RawUser.builder()
