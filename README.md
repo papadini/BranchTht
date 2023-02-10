@@ -15,6 +15,7 @@
 #### 4) I created these classes first by stubbing out and testing that I could do a simple end-to-end test. After successfully setting up my classes I started to setting up logic to get data, transform data, check if we got data and return proper data. 
 #### 5) Also set up testing to individually test methods in service, mocking response of doa. 
 #### 6) Tested end-to-end, code clean up/walk through 
+#### 7) Set up Spring Caching on UserDao to increase speed. Average time on first request: 800ms vs average second request using cache: less than 10ms
 
 ## Bugs
 #### Currently, one bug is present within the date format. Either my pattern is off or using SimpleDateFormat. Current bug effects hour section of time. returning 11 when should be 18 but did not want to spend too much time on this. I plan to try a bit longer after submission.  

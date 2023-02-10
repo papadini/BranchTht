@@ -2,11 +2,9 @@ package com.test.branchtht.dao;
 
 import com.test.branchtht.entity.RawUser;
 import com.test.branchtht.entity.RawUserRepo;
-import com.test.branchtht.exception.UserNotFoundException;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
