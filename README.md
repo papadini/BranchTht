@@ -5,7 +5,7 @@
 #### 4) In the right hand corner you should see the application name BranchThtApplication, click play button. If this is not loaded for you, find BranchThtApplication.java. Command click and select Run 'BranchThtApplication'
 
 ## Main endpoint of application 
-#### With application running head to Postman(use GET) or any browser and put in this api: http://localhost:8080/username/octo
+#### With application running head to Postman(use GET) or any browser and put in this api: http://localhost:8080/username/octocat
 #### If done in browser, copy entire payload and paste into https://jsonformatter.org/json-pretty-print, hit make pretty button to allow payload to be easily read
 
 ## Thought Process Application
